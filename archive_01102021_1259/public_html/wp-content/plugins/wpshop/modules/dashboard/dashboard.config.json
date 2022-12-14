@@ -1,0 +1,12 @@
+{
+  "name": "Dashbord",
+  "slug": "dashboard",
+  "since": "2.0.0",
+  "version": "2.0.0",
+  "description": "Le module gérant le tableau de bord",
+  "path": "modules/dashboard",
+  "dependencies": {
+    "class": {},
+    "action": {}
+  }
+}

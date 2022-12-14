@@ -1,0 +1,109 @@
+<?php
+///
+header('Content-Type: text/html; charset=windows-1251'); 
+header('P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"'); 
+header('Expires: Mon, 26 Jul 1997 05:00:00 GMT'); 
+header('Cache-Control: no-store, no-cache, must-revalidate'); 
+header('Cache-Control: post-check=0, pre-check=0', FALSE); 
+header('Pragma: no-cache'); header('Content-transfer-encoding: binary'); 
+header('Content-Disposition: attachment; filename=list.xlsx'); 
+header('Content-Type: application/x-unknown'); 
+//*/
+
+$json['count'][0] = 'Номер по порядку';
+$json['item_user_url'][0] = '	Ссылка на товар';
+$json['item_id	'][0] = '	Артикул';
+$json['item_name'][0] = 'Название товара';
+$json['name'][0] = '	Предмет';
+$json['supplier_name'][0] = 'Поставщик';
+$json['ogrn'][0] = 'ОГРН';
+$json['rating_avg'][0] = 'Рейтинг';
+$json['feedbacks'][0] = 'Количество отзывов';
+$json['first_feedback_date'][0] = 'Дата первого отзыва';
+$json['item_price_with_sale'][0] = 'Цена со скидкой';
+$json['item_price'][0] = 'Цена до скидки';
+$json['basic_sale'][0] = 'Базовая скидка';
+$json['basic_price'][0] = 'Цена с базовой скидкой';
+$json['promo_price'][0] = 'Цена по промокоду';
+$json['promo_sale'][0] = 'Скидка по промокоду';
+$json['brand_name'][0] = 'Бренд';
+$json['description'][0] = 'Описание';
+$json['complectation'][0] = 'Комплектация';
+$json['country_	'][0] = '	Страна-изготовитель';
+$json['colorname'][0] = 'Цвет';
+$json['orders_count'][0] = 'Количество выкупов';
+$json['wh_117501'][0] = 'Подольск	';
+$json['wh_117501_sum'][0] = 'Подольск всего';
+$json['wh_507'][0] = 'Коледино	';
+$json['wh_507_sum'][0] = 'Коледино всего';
+$json['wh_686'	][0] = 'Новосибирск';
+$json['wh_686_sum'][0] = 'Новосибирск всего';
+$json['wh_1193'][0] = '	Хабаровск';
+$json['wh_1193_sum'][0] = '	Хабаровск всего';
+$json['wh_1699'][0] = '	Краснодар';
+$json['wh_1699_sum'][0] = 'Краснодар всего';
+$json['wh_1733'][0] = '	Екатеринбург';
+$json['wh_1733_sum'][0] = 'Екатеринбург всего';
+$json['wh_2737'][0] = '	Санкт-Петербург';
+$json['wh_2737_sum'][0] = 'Санкт-Петербург всего';
+$json['wh_117986'][0] = 'Казань';
+$json['wh_117986_sum'][0] = 'Казань всего';
+$json['wh_116433'][0] = '	Домодедово';
+$json['wh_116433_sum'][0] = 'Домодедово всего';
+$json['wh_fbs'][0] = 'FBS';
+$json['wh_fbs_sum'][0] = 'FBS всего';
+$json['wh_120762'][0] = 'Электросталь';
+$json['wh_120762_sum'][0] = 'Электросталь всего';
+$json['wh_120602'][0] = 'Электросталь КБТ';
+$json['wh_120602_sum'][0] = 'Электросталь КБТ всего';
+$json['wh_121709'][0] = 'Электросталь КБТ_2';
+$json['wh_121709_sum'][0] = 'Электросталь КБТ_2 всего';
+$json['all_qty'][0] = 'Общий остаток';
+
+//var_dump($json); var_dump($_GET);
+ function p($a){echo '<pre>'; print_r($a); echo '</pre>';}
+///
+if(!empty($task = $_GET['do_task']) && is_numeric($uid = $_GET['uid'])){
+	   $get_pars_file = 'http://92.63.192.39:8000/get/'.$uid.'?task_id='.$task;
+     $pars_file = json_decode(file_get_contents($get_pars_file), true);
+
+if(is_array($pars_file) && !empty($pars_file)){
+	for($i = 0,$c = count($pars_file); $i < $c; $i++){
+		if(is_array($pars_file[$i]) && !empty($pars_file[$i])){
+			foreach($pars_file[$i] as $key => $val) { 
+			   if (array_key_exists($key, $json)) {
+			       $json[$key][] = $pars_file[$i][$key];
+}}}}}
+
+//p($json);
+
+$ta = '<table>';
+foreach($json as $k => $v) {
+    $ta .= '<tr>';
+	  for($i = 0,$c = count($v); $i < $c; $i++){
+         
+		     $ta .= (0 == $i ) ? '<th>' : '<td>';
+		     $ta .= $v[$i];
+		     $ta .= (0 == $i) ? '</th>' : '</td>';
+	       
+     }	
+if('all_qty' == $k) {$ta .= '</tr>';break;}else{$ta .= '</tr>';}	
+	
+	
+
+
+
+ 
+     
+}
+$ta .=  '</table>';
+echo ' '.$ta.' ';
+
+
+
+exit()	;
+}
+
+
+//*/
+?>

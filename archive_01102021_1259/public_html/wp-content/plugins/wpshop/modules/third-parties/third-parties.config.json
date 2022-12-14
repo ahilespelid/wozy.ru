@@ -1,0 +1,14 @@
+{
+	"name": "Third Parties",
+	"slug": "third-parties",
+    "since": "2.0.0",
+	"version": "2.0.0",
+    "description": "Le module gérant les tiers",
+	"path": "modules/third-parties",
+	"dependencies": {
+      "filter": {},
+	  "class": {},
+	  "action": {},
+      "model": {}
+	}
+}
