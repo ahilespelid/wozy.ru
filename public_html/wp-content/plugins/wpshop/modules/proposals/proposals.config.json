@@ -1,0 +1,13 @@
+{
+  "name": "Gestion des devis",
+  "slug": "proposals",
+  "since": "2.0.0",
+  "description": "Le module gérant les devis",
+  "path": "modules/proposals/",
+  "dependencies": {
+    "filter": {},
+    "class": {},
+    "action": {},
+    "model": {}
+  }
+}

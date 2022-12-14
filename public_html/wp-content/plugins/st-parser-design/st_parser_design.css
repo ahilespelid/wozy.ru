@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 мар. 2021 г., 00:04:39
+    Author     : stepa
+*/
+
+.st-prc-title {
+	
+}
+
+.stc-button-parser-start {
+    border-width: 0px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    background-image: linear-gradient(90deg,#f7828e 0%,#fcb6ab 100%);
+    padding-top: 10px!important;
+    padding-right: 24px!important;
+    padding-bottom: 10px!important;
+    padding-left: 24px!important;
+	color: white;
+}
+
+.stc-input-parser-start {
+	width: 100%;
+    padding-top: 10px!important;
+    padding-right: 24px!important;
+    padding-bottom: 10px!important;
+    padding-left: 24px!important;
+    margin-right: 5px!important;
+    border-radius: 4px;
+
+}
+
+.st-parser-form-row {
+	display: flex;
+}
+
+.st-row-add-parser {
+	margin-bottom: 50px;
+}
+.st-report-grid-title {
+	font-weight: bold;
+}
+
+.stc-repor-col {
+	max-width: 100%;
+	padding-left: 10px; padding-right: 10px;padding-top: 10px; padding-bottom: 10px;
+}
+
+.st-report-item  {
+	display: flex;
+}
+
+.stc-repor-col1 {
+
+}
+
+.stc-repor-col2 {
+
+}
+
+.stc-repor-col3 {
+
+}
+
+.stc-repor-col4 {
+
+}
+
+.stc-repor-col5 {
+max-width: 25px;
+min-width: 25px;
+}
+
+.st-report-item a {
+	color: black;
+}
+
+.stc-report-button {
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 700!important;
+	padding-top: 10px!important;
+	padding-right: 24px!important;
+	padding-bottom: 10px!important;
+	padding-left: 24px!important;
+	color: black;
+	border: 1px solid black;
+	background-color: #ddd;
+	background-color: rgba(221, 221, 221, 15%);
+}
+
+.st-report .st-report-table {
+	border: 0px!important;
+}
+
+.st-report-table a {
+	color: black;
+}
+
+.st-report .st-report-table tr td {
+	border: 0px;
+	background-color: rgba(221, 221, 221, 10%);
+	padding-bottom: 15px!important;
+    padding-top: 15px!important;
+	position: relative;
+}
+
+.st-report .st-report-table tbody tr{
+	border-bottom: 3px solid white;
+}
+
+.st-but-compl {
+	background-color: greenyellow;
+}
+
+.st-report-text-full {
+	display: none;
+	position: absolute;
+    left: 1em;
+    top: 2em;
+    z-index: 99;
+    margin-left: 0;
+    width: 250px;
+    margin-top: 10px;
+    line-height: normal;
+    border: 1px solid silver;
+    padding: 5px;
+    background-color: white;
+    border-radius: 4px;	
+}
+
+.st-obj-ttip {
+	cursor: help;
+}
+
+.st-obj-ttip:hover .st-report-text-full {
+	display: block;
+}
+
+.st-mvr {
+	cursor: move;
+}
+
+.st-table-row {
+	min-width: 100%;
+	overflow-x: auto;
+}
+
+.st-t1 {
+	min-width: 120px;
+}
+
+.st-t4 {
+	min-width: 200px;
+}
