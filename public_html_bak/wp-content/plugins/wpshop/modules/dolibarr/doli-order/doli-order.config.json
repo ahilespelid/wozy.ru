@@ -1,0 +1,14 @@
+{
+	"name": "Doli Order",
+	"slug": "doli-order",
+	"since": "2.0.0",
+    "version": "2.0.0",
+	"description": "Le module gérant les commandes de Dolibarr",
+	"path": "modules/dolibarr/doli-order/",
+	"dependencies": {
+      "filter": {},
+      "class": {},
+      "action": {},
+      "model": {}
+	}
+}

@@ -1,0 +1,160 @@
+2021-05-02T09:21:44+00:00 CRITICAL Uncaught Error: Call to undefined function st_login_form_param() in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php:11
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/w/wozyru/wozy.ru/public_html/wp-blog-header.php(19): require_once('/home/w/wozyru/...')
+#2 /home/w/wozyru/wozy.ru/public_html/index.php(17): require('/home/w/wozyru/...')
+#3 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php на строке 11
+
+2021-05-02T11:54:13+00:00 CRITICAL Uncaught Error: Call to undefined function st_login_form_param() in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php:11
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/w/wozyru/wozy.ru/public_html/wp-blog-header.php(19): require_once('/home/w/wozyru/...')
+#2 /home/w/wozyru/wozy.ru/public_html/index.php(17): require('/home/w/wozyru/...')
+#3 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php на строке 11
+
+2021-05-02T11:57:49+00:00 CRITICAL Uncaught Error: Call to undefined function st_login_form_param() in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php:11
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/w/wozyru/wozy.ru/public_html/wp-blog-header.php(19): require_once('/home/w/wozyru/...')
+#2 /home/w/wozyru/wozy.ru/public_html/index.php(17): require('/home/w/wozyru/...')
+#3 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php на строке 11
+
+2021-05-02T11:57:55+00:00 CRITICAL Uncaught Error: Call to undefined function st_login_form_param() in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php:11
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/w/wozyru/wozy.ru/public_html/wp-blog-header.php(19): require_once('/home/w/wozyru/...')
+#2 /home/w/wozyru/wozy.ru/public_html/index.php(17): require('/home/w/wozyru/...')
+#3 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php на строке 11
+
+2021-05-02T13:06:12+00:00 CRITICAL Uncaught Error: Call to undefined function st_login_form_param() in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php:11
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/w/wozyru/wozy.ru/public_html/wp-blog-header.php(19): require_once('/home/w/wozyru/...')
+#2 /home/w/wozyru/wozy.ru/public_html/index.php(17): require('/home/w/wozyru/...')
+#3 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php на строке 11
+
+2021-05-02T13:06:53+00:00 CRITICAL Uncaught Error: Call to undefined function st_login_form_param() in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php:11
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/w/wozyru/wozy.ru/public_html/wp-blog-header.php(19): require_once('/home/w/wozyru/...')
+#2 /home/w/wozyru/wozy.ru/public_html/index.php(17): require('/home/w/wozyru/...')
+#3 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php на строке 11
+
+2021-05-02T13:06:59+00:00 CRITICAL Uncaught Error: Call to undefined function st_login_form_param() in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php:11
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/w/wozyru/wozy.ru/public_html/wp-blog-header.php(19): require_once('/home/w/wozyru/...')
+#2 /home/w/wozyru/wozy.ru/public_html/index.php(17): require('/home/w/wozyru/...')
+#3 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/st-login.php на строке 11
+
+2021-05-02T14:23:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#6 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:23:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin.php(175): do_action('admin_init')
+#6 /home/w/wozyru/wozy.ru/public_html/wp-admin/index.php(10): require_once('/home/w/wozyru/...')
+#7 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:23:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#6 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:23:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin.php(175): do_action('admin_init')
+#6 /home/w/wozyru/wozy.ru/public_html/wp-admin/index.php(10): require_once('/home/w/wozyru/...')
+#7 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:24:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#6 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:24:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#6 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:24:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#6 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:24:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#6 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:24:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php on line 8646 and at least 1 expected in /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php:1279
+Stack trace:
+#0 /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php(8646): wp_redirect()
+#1 [internal function]: go_parser('')
+#2 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('go_parser', Array)
+#3 /home/w/wozyru/wozy.ru/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /home/w/wozyru/wozy.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/w/wozyru/wozy.ru/public_html/wp-admin/admin.php(175): do_action('admin_init')
+#6 /home/w/wozyru/wozy.ru/public_html/wp-admin/index.php(10): require_once('/home/w/wozyru/...')
+#7 {main}
+  thrown в /home/w/wozyru/wozy.ru/public_html/wp-includes/pluggable.php на строке 1279
+
+2021-05-02T14:33:50+00:00 CRITICAL Cannot redeclare go_parser() (previously declared in /home/w/wozyru/wozy.ru/public_html/wp-content/plugins/st-parser-design/st-parser-design.php:246) в /home/w/wozyru/wozy.ru/public_html/wp-content/themes/Divi/functions.php на строке 8644
+

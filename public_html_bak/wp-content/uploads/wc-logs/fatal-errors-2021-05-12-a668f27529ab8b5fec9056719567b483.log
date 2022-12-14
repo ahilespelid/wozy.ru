@@ -1,0 +1,2 @@
+2021-05-12T21:04:58+00:00 CRITICAL require(): Failed opening required '/home/w/wozyru/wozy.ru/public_html/wp-content/plugins/wpshop/core/external/eo-framework/modules/wpeo-upload/view//gallery/button-add.view.php' (include_path='.:/usr/share/php') в /home/w/wozyru/wozy.ru/public_html/wp-content/plugins/wpshop/core/external/eo-framework/modules/wpeo-upload/action/wpeo-upload.action.php на строке 188
+
